@@ -9,11 +9,13 @@
     
     <h2 id = "table of contents"> Table of Contents </h2>
     <ul>
-    	<li> <a href= "#chapter 1"> Chapter 1 Stuff </a> </li>
-    	<li> <a href= "#chapter 2"> Chapter 2 Stuff </a> </li>
-    	<li> <a href= "#chapter 3"> Chapter 3 Stuff </a> </li>
-    	<li> <a href= "#chapter 4"> Chapter 4 Stuff </a> </li>
-    	<li> <a href= "#chapter 5"> Chapter 5 Stuff </a> </li>
+    	<li> <a href= "#chapter 1"> Chapter 1 </a> </li>
+    	<li> <a href= "#chapter 2"> Chapter 2</a> </li>
+    	<li> <a href= "#chapter 3"> Chapter 3</a> </li>
+    	<li> <a href= "#chapter 4"> Chapter 4</a> </li>
+    	<li> <a href= "#chapter 5"> Chapter 5</a> </li>
+    	<li> <a href= "#chapter 6"> Chapter 6</a> </li>
+    	<li> <a href= "#chapter 7"> Chapter 7</a> </li>
     </ul>
     <hr />
     
@@ -94,6 +96,98 @@
 
 	  	<p> <a href = "#table of contents"> Table of contents </a> </p> 	
 			<hr />
+			
+			<h2 id = "chapter 6"> Chapter 6 (Tables) </h2>
+			<p>
+				<h3> Table example 1 </h3>
+				<table>
+					<tr>
+						<td> 3 </td>
+						<td> F </td>
+						<td> 4 </td>
+					</tr>
+					<tr>
+						<td> T </td>
+						<td> 7 </td>
+						<td> O </td>
+					</tr>
+				</table>
+			</p>
+			<p>
+				<h3> Table with headings </h3>
+				<table>
+					<thead>
+					<tr>
+						<th></th>
+						<th scope = "col"> monday </th>
+						<th scope = "col"> tuesday </th>
+					  <th scope = "col"> wednesday </th>
+					</tr>
+					</thead>
+					
+					<tbody>
+					<tr>
+						<th scope = "row"> profit </th>
+						<td> $32 </td>
+						<td rowspan ="2"> $57 </td>
+					</tr>
+					<tr>
+						<th scope = "row"> time (hours) </th>
+						<td> 4 </td>
+						<td> 6 </td>
+						<td> 12 </td>
+					</tr>
+					<tr>
+						<th scope = "row"> example </th>
+						<td colspan = "3"> null </th>
+					</tr>
+					</tbody>
+					
+					<tfoot>
+						<tr>
+						<td></td>
+						<td colspan = "3"> This is a table footer </td>
+						</tr>
+					</tfoot>
+				</table>
+			</p>
+			<p> <a href = "#table of contents"> Table of contents </a> </p> 	
+			<hr />
+			
+			<h2 id = "chapter 7"> Chapter 7 (forms) </h2>
+			
+			<h3> Example form </h3>
+			<form action = "index.htm" method = "get">
+				<p> Info1: <input type = "text" name = "info1"/> <br />
+						Info2: <input type = "text" name = "info2"/>
+				</p>
+			</form>
+			<form action = "index.htm">
+				<p> Example text box here: </p>
+				<textarea name = "textbox">Type here... </textarea>
+			</form>
+			
+			<form action = "index.htm">
+			<p>Choose one of these options: <br />
+				A<input type = "radio" name = "buttons1" value = "A" checked = "checked"/	>
+				B<input type = "radio" name = "buttons1" value = "B"/>
+			</p>
+			
+			<p>Choose more of these: <br />
+				<input type = "radio" name = "buttons2" value = "C"/	> C <br />
+				<input type = "radio" name = "buttons2" value = "D"/	> D
+			</p>
+			
+			</form>
+			
+			<form action = "index.htm"> 
+			<p>Choose one of these:
+				1<input type = "checkbox" name = "checks" value = "1"/>
+				2<input type = "checkbox" name = "checks" value = "2"/>
+			</p>
+			</form>
+				
+			
     </body>
     
 </html>
