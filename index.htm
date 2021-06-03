@@ -16,6 +16,8 @@
     	<li> <a href= "#chapter 5"> Chapter 5</a> </li>
     	<li> <a href= "#chapter 6"> Chapter 6</a> </li>
     	<li> <a href= "#chapter 7"> Chapter 7</a> </li>
+    	<li> <a href= "#chapter 8"> Chapter 8</a> </li>
+    	
     </ul>
     <hr />
     
@@ -186,7 +188,73 @@
 				2<input type = "checkbox" name = "checks" value = "2"/>
 			</p>
 			</form>
+			
+			<form action = "index.htm"> 
+				Choose from these: <br />
+				<select name = "multipleselect" size = "3" multiple="multiple">
+					
+					<option value = "option a"> option a </option>
+					<option value = "option b"> option b </option>
+					<option value = "option c"> option c </option>
 				
+				</select> 
+			</form>	
+			
+			<form action = "index.htm"> 
+				<select name = "dropdown">
+					
+					<option value = "option a"> option a </option>
+					<option value = "option b"> option b </option>
+					<option value = "option c"> option c </option>
+				
+				</select> 				
+			
+			</form>
+			
+			<form action = "index.htm"> 
+				<input type = "file" name = "filebox"/>
+				<input type = "submit" name = "submit" value = "done"/>
+			</form>
+			
+			<form action = "index.htm">
+				<label> Name: <input type = "text" name = "test"/> </label> <br />
+				Other options: 
+				<input id = "radio1" type = "radio" name = "test2" value = "1"/>
+				<label for = "radio1">Option 1 </label>
+				
+				<input id = "radio2" type = "radio" name = "test2" value = "2"/>
+				<label for = "radio2">Option 2 </label>
+			</form>
+			
+			<fieldset>
+				<legend> Test Grouping </legend>
+				
+				<label> Form 1: <br />
+				<input type = "text" name ="fieldtext" required = "required">
+				</label> 
+				<br /> 
+				
+				<label> Form 2: </label>
+			
+				<input id = "fieldradio1" type = "radio" name = "fieldradio" value = "fieldradio1">
+				<label for = "fieldradio1"> Option 1 </label>
+				
+				<input id = "fieldradio2" type = "radio" name = "fieldradio" value = "fieldradio2">
+				<label for = "fieldradio2"> Option 2 </label>
+				
+				<input id = "fieldradio3" type = "radio" name = "fieldradio" value = "fieldradio3">
+				<label for = "fieldradio3"> Option 3 </label>
+
+				
+			</fieldset>
+			
+			<p> <a href = "#table of contents"> Table of contents </a> </p> 	
+			<hr />
+			
+			<h2 id = "chapter 8"> Chapter 8 (forms) </h2>
+			
+			<iframe src = "https://mobalytics.gg/" width = "300" height = "300"> </iframe>
+			
 			
     </body>
     
